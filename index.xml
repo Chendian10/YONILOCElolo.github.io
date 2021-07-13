@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>YONILOCElolo</title>
+        <link>https://YONILOCElolo.github.io/</link>
+        <description>Recent content on YONILOCElolo</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://YONILOCElolo.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【flutter报错解决】the following dependencies don&#39;t support null safety</title>
+        <link>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</link>
+        <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</guid>
+        <description>&lt;p&gt;使用flutter run时，报如下错误：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Error: Cannot run with sound null safety, because the following dependencies
+don&#39;t support null safety:
+
+ - package:cloud_firestore_web
+ - package:firebase_core_web
+ - package:shared_preferences
+ - package:url_launcher_web
+ - package:firebase_auth
+ - package:http
+ - package:provider
+...
+
+For solutions, see https://dart.dev/go/unsound-null-safety
+Failed to compile application.
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;第一种方法&#34;&gt;第一种方法&lt;/h2&gt;
+&lt;h3 id=&#34;在终端运行&#34;&gt;在终端运行&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;flutter run --no-sound-null-safety
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;第二种方法&#34;&gt;第二种方法&lt;/h2&gt;
+&lt;h3 id=&#34;intellijandroid-studio&#34;&gt;IntelliJ/Android Studio&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;Edit Configurations&amp;rdquo; (在RUN配置里) → &amp;ldquo;Additional run args&amp;rdquo; 添加&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;--no-sound-null-safety
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;vs-code&#34;&gt;VS Code&lt;/h3&gt;
+&lt;p&gt;在用户设置里查找&amp;quot;Flutter run additional args&amp;quot;并添加&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;--no-sound-null-safety
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;参考&lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/64917744/cannot-run-with-sound-null-safety-because-dependencies-dont-support-null-safety&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stackoverflow解决方案&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

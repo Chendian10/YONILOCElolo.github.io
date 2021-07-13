@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on YONILOCElolo</title>
+    <link>https://YONILOCElolo.github.io/post/</link>
+    <description>Recent content in Posts on YONILOCElolo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://YONILOCElolo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【flutter报错解决】the following dependencies don&#39;t support null safety</title>
+      <link>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</guid>
+      <description>使用flutter run时，报如下错误：
+Error: Cannot run with sound null safety, because the following dependencies don&#39;t support null safety: - package:cloud_firestore_web - package:firebase_core_web - package:shared_preferences - package:url_launcher_web - package:firebase_auth - package:http - package:provider ... For solutions, see https://dart.dev/go/unsound-null-safety Failed to compile application. 第一种方法 在终端运行 flutter run --no-sound-null-safety 第二种方法 IntelliJ/Android Studio &amp;ldquo;Edit Configurations&amp;rdquo; (在RUN配置里) → &amp;ldquo;Additional run args&amp;rdquo; 添加
+--no-sound-null-safety VS Code 在用户设置里查找&amp;quot;Flutter run additional args&amp;quot;并添加
+--no-sound-null-safety 参考Stackoverflow解决方案</description>
+    </item>
+    
+  </channel>
+</rss>
