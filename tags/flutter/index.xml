@@ -6,11 +6,11 @@
     <description>Recent content in flutter on YONILOCElolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://YONILOCElolo.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://YONILOCElolo.github.io/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【flutter报错解决】the following dependencies don&#39;t support null safety</title>
       <link>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</guid>
       <description>使用flutter run时，报如下错误：

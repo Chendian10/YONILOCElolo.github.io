@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Cannot run with sound null safety, because the following dependencies don&#39;t support null safety'><title>【flutter报错解决】the following dependencies don&#39;t support null safety</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='本方法针对Hugo博客搭建完毕后的第一次上传及以后的提交更新'><title>Hugo&#43;github博客第一次上传到github及提交更新</title>
 
-<link rel='canonical' href='https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/'>
+<link rel='canonical' href='https://YONILOCElolo.github.io/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='【flutter报错解决】the following dependencies don&#39;t support null safety'>
-<meta property='og:description' content='Cannot run with sound null safety, because the following dependencies don&#39;t support null safety'>
-<meta property='og:url' content='https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Hugo&#43;github博客第一次上传到github及提交更新'>
+<meta property='og:description' content='本方法针对Hugo博客搭建完毕后的第一次上传及以后的提交更新'>
+<meta property='og:url' content='https://YONILOCElolo.github.io/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/'>
 <meta property='og:site_name' content='YONILOCElolo'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='flutter' /><meta property='article:tag' content='报错解决' /><meta property='article:published_time' content='2021-07-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-07-12T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="【flutter报错解决】the following dependencies don&#39;t support null safety">
-<meta name="twitter:description" content="Cannot run with sound null safety, because the following dependencies don&#39;t support null safety">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='方法' /><meta property='article:tag' content='搭建' /><meta property='article:published_time' content='2021-07-13T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-07-13T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Hugo&#43;github博客第一次上传到github及提交更新">
+<meta name="twitter:description" content="本方法针对Hugo博客搭建完毕后的第一次上传及以后的提交更新">
     </head>
     <body class="
     article-page has-toc
@@ -65,20 +65,20 @@
     
     <header class="article-category">
         
-            <a href="/categories/solving/" style="background-color: #2a9d8f; color: #fff;">
-                Solving
+            <a href="/categories/method/" style="background-color: #2a9d8f; color: #fff;">
+                Method
             </a>
         
     </header>
     
 
     <h2 class="article-title">
-        <a href="/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/">【flutter报错解决】the following dependencies don&#39;t support null safety</a>
+        <a href="/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/">Hugo&#43;github博客第一次上传到github及提交更新</a>
     </h2>
 
     
     <h3 class="article-subtitle">
-        Cannot run with sound null safety, because the following dependencies don&#39;t support null safety
+        本方法针对Hugo博客搭建完毕后的第一次上传及以后的提交更新
     </h3>
     <footer class="article-time">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -89,39 +89,31 @@
 
 
 
-        <time class="article-time--published">Jul 12, 2021</time>
+        <time class="article-time--published">Jul 13, 2021</time>
     </footer></div>
 </header>
 
     <section class="article-content">
-    <p>使用flutter run时，报如下错误：</p>
-<pre><code>Error: Cannot run with sound null safety, because the following dependencies
-don't support null safety:
-
- - package:cloud_firestore_web
- - package:firebase_core_web
- - package:shared_preferences
- - package:url_launcher_web
- - package:firebase_auth
- - package:http
- - package:provider
-...
-
-For solutions, see https://dart.dev/go/unsound-null-safety
-Failed to compile application.
-</code></pre><h2 id="第一种方法">第一种方法</h2>
-<h3 id="在终端运行">在终端运行</h3>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">flutter run --no-sound-null-safety
-</code></pre></div><h2 id="第二种方法">第二种方法</h2>
-<h3 id="intellijandroid-studio">IntelliJ/Android Studio</h3>
-<p>&ldquo;Edit Configurations&rdquo; (在RUN配置里) → &ldquo;Additional run args&rdquo; 添加</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">--no-sound-null-safety
-</code></pre></div><h3 id="vs-code">VS Code</h3>
-<p>在用户设置里查找&quot;Flutter run additional args&quot;并添加</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">--no-sound-null-safety
-</code></pre></div><p>参考<a class="link" href="https://stackoverflow.com/questions/64917744/cannot-run-with-sound-null-safety-because-dependencies-dont-support-null-safety"  target="_blank" rel="noopener"
-    >Stackoverflow解决方案</a></p>
-
+    <p>首先在 GitHub 上创建一个Repository，命名为yourname.github.io
+把 config.toml 或 config.yaml 里的 basaeURL 修改为 <a href="https://yourname.github.io/">https://yourname.github.io/</a></p>
+<p>cd 你的 public 目录，按照正常 Git 命令操作即可</p>
+<h2 id="第一次提交">第一次提交</h2>
+<pre><code>$ cd public
+$ git init
+$ git remote add origin https://github.com/yourname/yourname.github.io.git
+$ git add -A
+$ git commit -m &quot;first commit&quot;
+$ git push -u origin master
+</code></pre><h2 id="更新文章后">更新文章后</h2>
+<p>生成新的静态页面</p>
+<pre><code>hugo --theme=your-theme-name --baseUrl=&quot;https://yourname.github.io/&quot; --buildDrafts 
+</code></pre><h2 id="更新提交">更新提交</h2>
+<pre><code>$ cd public
+$ git add .
+$ git status
+$ git commit -m &quot;add blog post&quot;
+$ git push
+</code></pre>
 </section>
 
 
@@ -129,9 +121,9 @@ Failed to compile application.
     
     <section class="article-tags">
         
-            <a href="/tags/flutter/">flutter</a>
+            <a href="/tags/%E6%96%B9%E6%B3%95/">方法</a>
         
-            <a href="/tags/%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3/">报错解决</a>
+            <a href="/tags/%E6%90%AD%E5%BB%BA/">搭建</a>
         
     </section>
 
@@ -319,17 +311,9 @@ Failed to compile application.
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#第一种方法">第一种方法</a>
-      <ol>
-        <li><a href="#在终端运行">在终端运行</a></li>
-      </ol>
-    </li>
-    <li><a href="#第二种方法">第二种方法</a>
-      <ol>
-        <li><a href="#intellijandroid-studio">IntelliJ/Android Studio</a></li>
-        <li><a href="#vs-code">VS Code</a></li>
-      </ol>
-    </li>
+    <li><a href="#第一次提交">第一次提交</a></li>
+    <li><a href="#更新文章后">更新文章后</a></li>
+    <li><a href="#更新提交">更新提交</a></li>
   </ol>
 </nav>
                 </div>

@@ -7,9 +7,36 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://YONILOCElolo.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo&#43;github博客第一次上传到github及提交更新</title>
+        <link>https://YONILOCElolo.github.io/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/</link>
+        <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://YONILOCElolo.github.io/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/</guid>
+        <description>&lt;p&gt;首先在 GitHub 上创建一个Repository，命名为yourname.github.io
+把 config.toml 或 config.yaml 里的 basaeURL 修改为 &lt;a href=&#34;https://yourname.github.io/&#34;&gt;https://yourname.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;cd 你的 public 目录，按照正常 Git 命令操作即可&lt;/p&gt;
+&lt;h2 id=&#34;第一次提交&#34;&gt;第一次提交&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;$ cd public
+$ git init
+$ git remote add origin https://github.com/yourname/yourname.github.io.git
+$ git add -A
+$ git commit -m &amp;quot;first commit&amp;quot;
+$ git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;更新文章后&#34;&gt;更新文章后&lt;/h2&gt;
+&lt;p&gt;生成新的静态页面&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo --theme=your-theme-name --baseUrl=&amp;quot;https://yourname.github.io/&amp;quot; --buildDrafts 
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;更新提交&#34;&gt;更新提交&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;$ cd public
+$ git add .
+$ git status
+$ git commit -m &amp;quot;add blog post&amp;quot;
+$ git push
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
         <title>【flutter报错解决】the following dependencies don&#39;t support null safety</title>
         <link>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</link>
-        <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
         
         <guid>https://YONILOCElolo.github.io/p/flutter%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3the-following-dependencies-dont-support-null-safety/</guid>
         <description>&lt;p&gt;使用flutter run时，报如下错误：&lt;/p&gt;

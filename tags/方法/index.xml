@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>方法 on YONILOCElolo</title>
+    <link>https://YONILOCElolo.github.io/tags/%E6%96%B9%E6%B3%95/</link>
+    <description>Recent content in 方法 on YONILOCElolo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://YONILOCElolo.github.io/tags/%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo&#43;github博客第一次上传到github及提交更新</title>
+      <link>https://YONILOCElolo.github.io/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://YONILOCElolo.github.io/p/hugo-github%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E4%BC%A0%E5%88%B0github%E5%8F%8A%E6%8F%90%E4%BA%A4%E6%9B%B4%E6%96%B0/</guid>
+      <description>首先在 GitHub 上创建一个Repository，命名为yourname.github.io 把 config.toml 或 config.yaml 里的 basaeURL 修改为 https://yourname.github.io/
+cd 你的 public 目录，按照正常 Git 命令操作即可
+第一次提交 $ cd public $ git init $ git remote add origin https://github.com/yourname/yourname.github.io.git $ git add -A $ git commit -m &amp;quot;first commit&amp;quot; $ git push -u origin master 更新文章后 生成新的静态页面
+hugo --theme=your-theme-name --baseUrl=&amp;quot;https://yourname.github.io/&amp;quot; --buildDrafts 更新提交 $ cd public $ git add . $ git status $ git commit -m &amp;quot;add blog post&amp;quot; $ git push </description>
+    </item>
+    
+  </channel>
+</rss>
